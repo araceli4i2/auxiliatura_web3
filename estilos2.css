@@ -1,0 +1,28 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  margin: 20px;
+}
+#galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+.pokemon {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+}
+img {
+  width: 80px;
+  height: 80px;
+}
+button {
+  margin: 10px;
+  padding: 8px 15px;
+}
+input {
+  padding: 5px;
+  width: 200px;
+}
